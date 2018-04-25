@@ -178,9 +178,13 @@ return [
         App\Providers\RouteServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         /**
-         * Laravoole
+         * Laravoole https://github.com/garveen/laravoole
          */
         Laravoole\LaravooleServiceProvider::class,
+        /**
+         * LaravelS https://github.com/hhxsv5/laravel-s
+         */
+        Hhxsv5\LaravelS\Illuminate\LaravelSServiceProvider::class,
     ],
 
     /*
@@ -229,6 +233,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        //'laravels' => Hhxsv5\LaravelS\Illuminate\LaravelSServiceProvider::class,
 
     ],
 
